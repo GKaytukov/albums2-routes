@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import AlbumCard from '../components/AlbumCard'
+import AlbumCard from './AlbumCard'
 
 export default function AlbumList() {
     const [albums, setAlbums] = useState()
