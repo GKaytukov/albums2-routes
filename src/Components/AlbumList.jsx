@@ -18,7 +18,8 @@ return (
         : albums.map(thisAlbum => (
             <AlbumCard
             key={thisAlbum.albumId}
-            thisAlbum={thisAlbum} />
+            thisAlbum={thisAlbum}
+            setAlbums={setAlbums} />
         ))
     
     }
